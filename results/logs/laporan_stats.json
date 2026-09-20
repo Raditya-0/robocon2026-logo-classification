@@ -1,0 +1,152 @@
+{
+  "total_kelas_final": 31,
+  "kelas_final": [
+    "FAKE_1",
+    "FAKE_10",
+    "FAKE_11",
+    "FAKE_12",
+    "FAKE_13",
+    "FAKE_14",
+    "FAKE_15",
+    "FAKE_2",
+    "FAKE_3",
+    "FAKE_4",
+    "FAKE_5",
+    "FAKE_6",
+    "FAKE_7",
+    "FAKE_8",
+    "FAKE_9",
+    "R1",
+    "REAL_1",
+    "REAL_10",
+    "REAL_11",
+    "REAL_12",
+    "REAL_13",
+    "REAL_14",
+    "REAL_15",
+    "REAL_2",
+    "REAL_3",
+    "REAL_4",
+    "REAL_5",
+    "REAL_6",
+    "REAL_7",
+    "REAL_8",
+    "REAL_9"
+  ],
+  "total_citra_per_split": {
+    "train": 4876,
+    "valid": 2322,
+    "test": 1339
+  },
+  "confusion_real_fake_per_model": {
+    "KNN": {
+      "total_error": 74,
+      "real_fake_cross_error": 21,
+      "real_fake_cross_pct": 28.38
+    },
+    "NaiveBayes": {
+      "total_error": 588,
+      "real_fake_cross_error": 102,
+      "real_fake_cross_pct": 17.35
+    },
+    "SVM": {
+      "total_error": 72,
+      "real_fake_cross_error": 18,
+      "real_fake_cross_pct": 25.0
+    },
+    "MLP": {
+      "total_error": 58,
+      "real_fake_cross_error": 23,
+      "real_fake_cross_pct": 39.66
+    },
+    "RandomForest": {
+      "total_error": 94,
+      "real_fake_cross_error": 21,
+      "real_fake_cross_pct": 22.34
+    }
+  },
+  "pasangan_real_fake_paling_tertukar": {
+    "real_class": "REAL_12",
+    "fake_class": "FAKE_12",
+    "skor_confusion_gabungan": 13
+  },
+  "sumber_data": {
+    "video_final_total": 8475,
+    "manual_final_total": 62,
+    "video_final_per_class": {
+      "FAKE_1": 167,
+      "FAKE_10": 211,
+      "FAKE_11": 134,
+      "FAKE_12": 233,
+      "FAKE_13": 191,
+      "FAKE_14": 120,
+      "FAKE_15": 200,
+      "FAKE_2": 182,
+      "FAKE_3": 171,
+      "FAKE_4": 192,
+      "FAKE_5": 228,
+      "FAKE_6": 293,
+      "FAKE_7": 140,
+      "FAKE_8": 171,
+      "FAKE_9": 161,
+      "R1": 1194,
+      "REAL_1": 356,
+      "REAL_10": 289,
+      "REAL_11": 473,
+      "REAL_12": 332,
+      "REAL_13": 280,
+      "REAL_14": 269,
+      "REAL_15": 205,
+      "REAL_2": 244,
+      "REAL_3": 304,
+      "REAL_4": 301,
+      "REAL_5": 269,
+      "REAL_6": 265,
+      "REAL_7": 294,
+      "REAL_8": 177,
+      "REAL_9": 429
+    },
+    "manual_final_per_class": {
+      "FAKE_10": 2,
+      "FAKE_11": 1,
+      "FAKE_12": 2,
+      "FAKE_13": 1,
+      "FAKE_14": 1,
+      "FAKE_15": 2,
+      "FAKE_2": 2,
+      "FAKE_3": 2,
+      "FAKE_4": 2,
+      "FAKE_5": 1,
+      "FAKE_6": 2,
+      "FAKE_7": 1,
+      "FAKE_8": 2,
+      "R1": 2,
+      "REAL_1": 2,
+      "REAL_10": 3,
+      "REAL_11": 3,
+      "REAL_12": 2,
+      "REAL_13": 3,
+      "REAL_14": 1,
+      "REAL_15": 3,
+      "REAL_2": 3,
+      "REAL_3": 2,
+      "REAL_4": 3,
+      "REAL_5": 4,
+      "REAL_6": 3,
+      "REAL_7": 3,
+      "REAL_8": 3,
+      "REAL_9": 1
+    },
+    "video_reject_total": 3832,
+    "video_reject_by_reason": {
+      "terlalu_kecil": 2666,
+      "blur": 1166
+    },
+    "video_reject_pct": 31.14,
+    "manual_reject_total": 8,
+    "manual_reject_by_reason": {
+      "blur": 8
+    },
+    "manual_reject_pct": 11.43
+  }
+}

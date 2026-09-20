@@ -1,0 +1,19 @@
+# dataset 
+data/raw/
+data/processed/
+
+# fitur intermediate
+results/features.csv
+
+# hasil build 
+deliverable/
+deliverable.zip
+
+scripts/
+dokumentasi/
+
+# python / jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
